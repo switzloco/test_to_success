@@ -8,6 +8,7 @@ __pycache__/
 data/*
 !data/player_track_backgrounds.csv
 !data/rookies_with_madden.csv
+!data/players_with_travel.csv
 *.zip
 game_tracking_*.csv
 player_play.csv
