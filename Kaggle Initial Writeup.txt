@@ -1,0 +1,933 @@
+Skip to
+content
+
+
+Create
+Home
+
+Competitions
+
+Benchmarks
+
+Game Arena
+
+Data Hub
+
+Datasets
+
+Models
+
+Code
+
+More
+
+Discussions
+
+Learn
+
+Kaggle Rankings
+
+Progression
+
+Documentation
+
+Host a Competition
+
+Research Grants
+
+Educator Resources
+
+Support/Contact
+
+Community Guidelines
+
+Team
+
+Blog
+
+Terms
+
+Privacy
+
+Your Work
+
+Viewed
+
+
+NFL Big Data Bowl 2027
+
+
+RSNA Knee Abnormality Detection
+
+
+Knee MRI Patient Explainer Demo
+
+
+rsna knee restructured version 3
+
+
+Google - The Gemma 4 Developer Agent Competition
+
+Edited
+
+
+Training Book
+
+
+JEV Encoder Demo
+
+
+Precision Runs ACT Training
+
+
+Vessel Ops Extra Credit - Unsloth Fine-tuning
+
+
+Submission Notebook
+
+Bookmarks
+
+
+WHO International Medical Guide for Ships 3rd ed
+
+
+View Active Events
+
+Search
+
+The National Football League · Featured Hackathon · 3 months to go
+
+View Writeups
+NFL Big Data Bowl 2027
+Uncover non-obvious linkages between Combine sensor tracking and regular-season NFL game performance
+
+
+You haven't created a writeup yet.
+
+Your submission is due by Jan 6, 2027 at 3:59 PM PST.
+Overview
+You are challenged to build an analytical framework that uncovers non-obvious, actionable linkages between 10 Hz Combine sensor tracking data and future regular-season NFL game performance. Your submission should look beyond conventional scouting wisdom and identifying novel signals that help coaches and evaluators identify hidden talent, avoid costly draft busts, and design position-specific player development protocols.
+
+Start
+
+a day ago
+Close
+
+3 months to go
+Description
+2027 Theme: Combine to NFL Performance
+Every spring, college football's top prospects gather in Indianapolis for the NFL Scouting Combine. For decades, player evaluation at the Combine has relied on standardized stopwatch timings and physical testing numbers, such as the 40-yard dash, short shuttle, 3-cone drill, and vertical jump. While these numbers provide a baseline measure of straight-line speed and explosiveness, player tracking sensors worn during workouts now capture the full details of how athletes move throughout each drill.
+
+The 2027 Big Data Bowl provides player tracking data from the NFL Scouting Combine alongside regular-season NFL game tracking data. The goal of this year's competition is to better understand how player movement during Combine drills translates to performance on the field during the NFL regular season.
+
+In this competition, participants are tasked with analyzing prospect movement in a way that is actionable and accessible to coaches, scouts, and front offices. This could include creating a new metric or comparing movement traits across position groups. As is often the case in Big Data Bowl analytics competitions, participants are encouraged to focus on one small aspect of movement, a specific position group, or an individual drill, rather than attempting to evaluate every prospect across all drills.
+
+Examples to consider
+Your challenge is generating actionable, practical, and novel insights from Combine tracking data and exploring how drill performance translates to on-field NFL play. Examples include, but are not limited to:
+
+Route running and coverage: Measuring change of direction, deceleration into breaks, and acceleration out of cuts for receivers and defensive backs compared to in-game separation
+Trench play: Evaluating first-step quickness, lateral agility, and burst for offensive and defensive linemen during agility drills compared to pass-rush or run-blocking performance
+Drill translation: Comparing sensor-based movement metrics with traditional drill times to identify where tracking data adds context to prospect evaluation
+Position-specific mechanics: Analyzing body control, acceleration profiles, or pursuit angles during position drills and their relationship to NFL rookie performance Note that the above list is not exhaustive, and we encourage participants to be creative with their submissions.
+Timeline
+October 6, 2026 - Start Date.
+January 6, 2027 - Final Submission Deadline.
+January 7, 2027 - January 25, 2027 - Judging Period*
+January 26, 2027 - Anticipated Results Announcement.
+*Note - Judging period subject to change based on the number of submissions received
+
+All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
+
+Submission Requirements
+Word and figure limits: Submissions should contain no more than 2,000 words and fewer than 10 tables or figures. Submissions over these limits may be subject to penalty.
+Code reproducibility: Participants are encouraged to show statistical code if it helps readers better understand their analyses, but most code should be placed in an Appendix or linked notebook. Any writeup that does not use the player tracking data will not be scored.
+Judges Panel
+Judges will consist of analytics staffers working for the 32 NFL teams or player tracking vendors that work with NFL teams. Scores will be summarized using a weighted average based on the percentages above.
+
+Evaluation
+Requirement	Passing Standard	Status
+1. Combine-to-NFL Linkage	Explicitly links Combine sensor tracking data to regular-season NFL game performance.	[PASS/FAIL]
+2. Writeup Completeness	Features readable markdown, embedded visuals, and an attached Public Kaggle Notebook.	[PASS/FAIL]
+
+
+All entries are evaluated on the following four components, where 0 is the lowest and 10 is the highest.
+
+Component	Evaluation Questions
+Football Score (30%)	
+Would NFL teams (or the league office) be able to use these results on a week-to-week basis?
+Does the analysis account for variables that make football data complex?
+Are the ideas unique?
+Data Science Score (30%)	
+Is the work correct?
+Are claims backed up by data?
+Are the statistical models appropriate given the data?
+Are the analytical applications innovative?
+Writeup Score (20%)	
+Is the Writeup well-written?
+Is the Writeup easy to follow?
+Is the motivation (metric, player evaluation, etc) clearly defined?
+Data Visualization Score (20%)	
+Are the charts and tables provided accessible?
+Are the charts and tables accurate?
+Are the charts and tables innovative?
+
+
+Participants are encouraged to show statistical code if it helps readers better understand their analyses. However, most code should be hidden in an Appendix. Any Writeup that doesn’t use the player tracking data will not be scored.
+
+Tracks and Awards
+Open Track · $45,000
+No eligibility restrictions for entry.
+
+
+Finalist
+$10,000
+
+Finalist
+$10,000
+
+Finalist
+$10,000
+
+Runner-Up
+$5,000
+
+Runner-Up
+$5,000
+
+Runner-Up
+$5,000
+University Track · $45,000
+Open only to groups or individuals composed entirely of undergraduate students. Verification may be required to prove eligibility.
+
+
+Finalist
+$10,000
+
+Finalist
+$10,000
+
+Finalist
+$10,000
+
+Runner-Up
+$5,000
+
+Runner-Up
+$5,000
+
+Runner-Up
+$5,000
+Grand Prize · $10,000
+Each of the finalists will receive an invitation to present at the 2027 NFL Scouting Combine, where one team will win an additional $10,000. Submissions should not be made to this track, it represents an additional $10,000 only available to invited Finalists.
+
+
+Grand Prize
+$10,000
+Judges
+Tom Bliss
+Data Scientist, National Football League
+Citation
+Michael Lopez, Ally Blake,, Tom Bliss, Addison Howard, and Paul Mooney. NFL Big Data Bowl 2027. https://www.kaggle.com/competitions/nfl-big-data-bowl-2027, 2026. Kaggle.
+
+
+Cite
+Competition Host
+The National Football League
+
+Prizes & Awards
+$100,000
+
+Does not award Points or Medals
+
+Participation
+2,235 Entrants
+
+32 Participants
+
+32 Teams
+
+32 Submissions
+
+Tags
+Football
+Sports
+Data Analytics
+Table of Contents
+Rules accepted. Good luck!
+
+
+
+
+
+Skip to
+content
+
+
+Create
+Home
+
+Competitions
+
+Benchmarks
+
+Game Arena
+
+Data Hub
+
+Datasets
+
+Models
+
+Code
+
+More
+
+Discussions
+
+Learn
+
+Kaggle Rankings
+
+Progression
+
+Documentation
+
+Host a Competition
+
+Research Grants
+
+Educator Resources
+
+Support/Contact
+
+Community Guidelines
+
+Team
+
+Blog
+
+Terms
+
+Privacy
+
+Your Work
+
+Viewed
+
+
+NFL Big Data Bowl 2027
+
+
+RSNA Knee Abnormality Detection
+
+
+Knee MRI Patient Explainer Demo
+
+
+rsna knee restructured version 3
+
+
+Google - The Gemma 4 Developer Agent Competition
+
+Edited
+
+
+Training Book
+
+
+JEV Encoder Demo
+
+
+Precision Runs ACT Training
+
+
+Vessel Ops Extra Credit - Unsloth Fine-tuning
+
+
+Submission Notebook
+
+Bookmarks
+
+
+WHO International Medical Guide for Ships 3rd ed
+
+
+View Active Events
+
+Search
+
+The National Football League · Featured Hackathon · 3 months to go
+
+View Writeups
+NFL Big Data Bowl 2027
+Uncover non-obvious linkages between Combine sensor tracking and regular-season NFL game performance
+
+
+You haven't created a writeup yet.
+
+Your submission is due by Jan 6, 2027 at 3:59 PM PST.
+Dataset Description
+Official Data Description, File Catalog, and Complete Column Dictionary
+1. Overview of Datasets
+The competition dataset contains high-frequency optical tracking, standardized physical testing results, and multi-season NFL game performance metrics for 510 rookie prospects drafted or signed between 2023 and 2025.
+
+The dataset is partitioned into 9 CSV files (~2.2 GiB total) linking pre-draft physical traits directly to regular-season on-field outcomes.
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                       DATASET FILE SUMMARY                                           │
+├──────────────────────────────┬───────────┬─────────────┬─────────┬───────────────────────────────────┤
+│ File Name                    │ Size      │ Rows        │ Columns │ Primary Keys / Description        │
+├──────────────────────────────┼───────────┼─────────────┼─────────┼───────────────────────────────────┤
+│ players.csv                  │ 47 KiB    │ 510         │ 10      │ nfl_id (Rookie prospect metadata) │
+│ combine_results.csv          │ 41 KiB    │ 510         │ 18      │ nfl_id (Combine testing splits)   │
+│ combine_tracking.csv         │ 79.9 MiB  │ 463,189     │ 14      │ event_id, nfl_id, time (10 Hz)    │
+│ player_career_successes.csv  │ 14 KiB    │ 510         │ 9       │ nfl_id (Career volume & honors)   │
+│ player_play.csv              │ 139.3 MiB │ 316,338     │ 64      │ game_id, play_id, nfl_id          │
+│ games.csv                    │ 43 KiB    │ 1,002       │ 7       │ game_id (Schedule metadata)       │
+│ game_tracking_2023.csv       │ 319.9 MiB │ 1,421,805   │ 12      │ game_id, play_id, nfl_id, time    │
+│ game_tracking_2024.csv       │ 684.7 MiB │ 3,042,118   │ 12      │ game_id, play_id, nfl_id, time    │
+│ game_tracking_2025.csv       │ 975.2 MiB │ 4,339,021   │ 12      │ game_id, play_id, nfl_id, time    │
+└──────────────────────────────┴───────────┴─────────────┴─────────┴───────────────────────────────────┘
+2. Entity Relationship Diagram
+erDiagram
+    PLAYERS ||--|| COMBINE_RESULTS : "evaluated at"
+    PLAYERS ||--o{ COMBINE_TRACKING : "runs drills in"
+    PLAYERS ||--|| PLAYER_CAREER_SUCCESSES : "accumulates"
+    PLAYERS ||--o{ PLAYER_PLAY : "participates in"
+    GAMES ||--o{ PLAYER_PLAY : "contains"
+    GAMES ||--o{ GAME_TRACKING_2023 : "tracks"
+    GAMES ||--o{ GAME_TRACKING_2024 : "tracks"
+    GAMES ||--o{ GAME_TRACKING_2025 : "tracks"
+    PLAYER_PLAY ||--o{ GAME_TRACKING_2023 : "frames"
+    PLAYER_PLAY ||--o{ GAME_TRACKING_2024 : "frames"
+    PLAYER_PLAY ||--o{ GAME_TRACKING_2025 : "frames"
+3. Detailed Column Definitions by File
+File 1: players.csv
+Contains demographic, collegiate, and draft metadata for the 510 rookie prospects.
+
+Column Name	Data Type	Example	Description
+nfl_id	int64	55867	Unique identifier assigned to each NFL player. Primary key across all tracking and performance tables.
+display_name	str	Will Anderson	Player's full legal name as registered with the NFL.
+draft_year	int64	2023	Year the prospect entered the NFL Draft (2023, 2024, or 2025).
+nfl_position	str	DE	Official NFL roster position (e.g., WR, CB, T, G, C, DT, DE, OLB, TE, SS, FS, NT, DB, ILB, MLB, RB, FB).
+birth_date	str	2001-09-02	Player date of birth in YYYY-MM-DD format.
+college_name	str	Alabama	College or university where the prospect played prior to entering the draft.
+college_conference	str	Southeastern Conference	NCAA athletic conference of the prospect's collegiate team.
+draft_round	int64 / null	1	Round in which the player was selected (1–7). null for Undrafted Free Agents (UDFAs).
+draft_pick_within_round	int64 / null	3	Pick number within the specific draft round. null for UDFAs.
+draft_overall_pick	int64 / null	3	Overall pick selection number across the entire draft (1–259+). null for UDFAs.
+File 2: combine_results.csv
+Contains official anthropometric measurements, standardized physical testing splits, and Next Gen Stats draft grades from the NFL Scouting Combine.
+
+Column Name	Data Type	Example	Description
+draft_year	int64	2023	Year of the Scouting Combine (2023, 2024, 2025).
+nfl_id	int64	56040	Unique player identifier matching players.csv.
+combine_position	str	TE	Position group the prospect participated with during Combine drills.
+combine_height	float64	77.875	Official prospect height measured in inches (e.g., 77.875 = 6'5.875").
+combine_weight	int64	245	Official prospect body weight measured in pounds (lbs).
+hand_size	float64	10.0	Hand span measured from tip of thumb to tip of pinky in inches.
+arm_length	float64	32.25	Arm length measured from acromion to tip of middle finger in inches.
+wing_span	float64	79.75	Total fingertip-to-fingertip wingspan in inches.
+ten_yd_split	float64	1.60	Official electronic 10-yard split time during the 40-yard dash in seconds.
+forty	float64	4.84	Official electronic 40-yard dash time in seconds.
+vertical	float64	38.5	Standing vertical jump height in inches.
+broad_jump	float64	125.0	Standing broad jump distance in inches.
+three_cone	float64	7.12	3-cone (L-drill) agility time in seconds (contains null for drill opt-outs).
+short_shuttle	float64	4.25	20-yard short shuttle (5-10-5) agility time in seconds (contains null for opt-outs).
+bench_reps	float64	22.0	Number of 225 lb bench press repetitions completed (contains null for opt-outs).
+ngs_athleticism_score	int64	60	Next Gen Stats composite athleticism score (0–100 percentile scale).
+ngs_college_production_score	float64	78.2	Next Gen Stats college production score based on college statistics.
+ngs_final_score	float64	74.5	Next Gen Stats overall prospect score combining athleticism and college production.
+File 3: combine_tracking.csv
+Contains 10 Hz high-frequency optical sensor tracking across 6,310 Combine drill attempts, including 40-yard dash sprints and position-specific agility/route drills.
+
+Column Name	Data Type	Example	Description
+draft_year	int64	2025	Year of Combine testing (2023, 2024, 2025).
+event_id	str	2025030210...	Unique identifier linking all tracking frames within a single continuous drill attempt.
+nfl_id	int64 / null	58286	Player identifier matching players.csv. Null for BALL tracking frames.
+entity_type	str	PLAYER	Entity tracked in the frame: PLAYER or BALL.
+time	str	2025-03-02T18:56:38.200	ISO 8601 timestamp for the optical tracking frame (sampled every 0.10 seconds).
+drill_type	str	SKILL_DRILLS_OL	Broad drill category (e.g., FORTY_YARD_DASH, THREE_CONE_DRILL, SHORT_SHUTTLE, SKILL_DRILLS_WR, SKILL_DRILLS_DB, SKILL_DRILLS_OL, SKILL_DRILLS_DL, SKILL_DRILLS_TE).
+drill_name	str	OL_PULL_DRILL_FOLD...	Specific drill name (e.g., GAUNTLET_DRILL, RUN_THE_HOOP_DRILL, BACK_PEDAL_AND_TRANSITION_45_DEGREE_REACTION, SLOT_STRIKE_ROUTE_LEFT, PASS_PRO_MIRROR_DRILL).
+attempt	int64	4	Attempt number index for the prospect within the given drill.
+x	float64	87.09	Player horizontal position along field length in yards (0-120).
+y	float64	22.52	Player vertical position across field width in yards (0-53.33).
+s	float64	0.28	Instantaneous player speed in yards per second (yd/s).
+a	float64	0.11	Instantaneous player acceleration in yards per second squared (yds / sec^2).
+dis	float64	0.01	Distance traveled from the previous tracking frame in yards.
+dir	float64	126.08	Player motion direction angle in degrees (0-360).
+File 4: player_career_successes.csv
+Contains cumulative career volume statistics, snap counts, and accolades earned by the 510 prospects during their rookie and subsequent seasons.
+
+Column Name	Data Type	Example	Description
+nfl_id	int64	55867	Unique player identifier matching players.csv.
+career_offensive_snaps	int64	0	Cumulative career offensive snaps played across regular-season and playoff games.
+career_defensive_snaps	int64	1884	Cumulative career defensive snaps played across regular-season and playoff games.
+career_special_teams_snaps	int64	92	Cumulative career special teams snaps played.
+career_games_active	int64	51	Total number of regular-season games the player was on the active roster.
+career_games_started	int64	44	Total number of regular-season games started by the player.
+ap_all_pro_1st_team	int64	1	Total number of Associated Press (AP) First-Team All-Pro selections earned in career.
+ap_all_pro_2nd_team	int64	0	Total number of Associated Press (AP) Second-Team All-Pro selections earned in career.
+pro_bowl_original_ballot	int64	1	Total number of Pro Bowl selections on the original ballot (excluding alternate injury replacements).
+File 5: player_play.csv
+Contains granular in-game Next Gen Stats and play-by-play metrics for every snap involving the rookie cohort across the 2023, 2024, and 2025 seasons ($N=316,338$ player-play records).
+
+A. Play Context & Identifiers
+Column Name	Data Type	Example	Description
+game_id	int64	2023091801	Unique 10-digit game identifier matching games.csv.
+play_id	int64	56	Unique play identifier within the game.
+team_abbr	str	BAL	3-letter abbreviation of the team the player is on.
+nfl_id	int64	55976	Unique player identifier matching players.csv.
+lined_up_position	str	T	Position where the player aligned on this specific play (e.g., WR, CB, T, G, C, DE, DT, TE, FS, SS, OLB).
+play_description	str	(15:00) P.Mahomes pass...	Official textual play-by-play description of the play.
+quarter	int64	1	Quarter of the game (1, 2, 3, 4, or 5 for overtime).
+down	int64	1	Current down (1, 2, 3, 4).
+yards_to_go	int64	10	Yards needed to achieve a first down or touchdown.
+possession_team	str	CLE	3-letter abbreviation of the offensive team.
+yardline_side	str	CLE	3-letter abbreviation of the team side of the field where the ball is spotted.
+yardline_number	int64	25	Distance in yards to the nearest goal line ($1 \le \text{yardline} \le 50$).
+game_clock	str	15:00	Game clock remaining in the quarter in MM:SS format.
+pre_snap_home_score	int64	0	Home team score prior to the snap.
+pre_snap_visitor_score	int64	0	Visiting team score prior to the snap.
+play_direction	str	left	Direction of offensive play progression (left or right).
+B. Win Probability & Expected Points
+Column Name	Data Type	Example	Description
+pre_snap_home_team_win_probability	float64	0.4237	Home team estimated win probability prior to snap.
+pre_snap_visitor_team_win_probability	float64	0.5763	Visiting team estimated win probability prior to snap.
+home_team_win_probability_added	float64	0.2210	Change in home team win probability produced by the play.
+visitor_team_win_probility_added	float64	-0.2210	Change in visiting team win probability produced by the play.
+expected_points_added	float64	-8.459	Net Expected Points Added (EPA) generated on the play.
+expected_points	float64	1.459	Expected points value of the offensive drive state prior to snap.
+C. Schemes, Formations & Play Results
+Column Name	Data Type	Example	Description
+offense_formation	str	EMPTY	Offensive pre-snap personnel formation (e.g., SHOTGUN, SINGLEBACK, EMPTY, I_FORM, PISTOL, JUMBO).
+receiver_alignment	str	3x2	Wide receiver alignment distribution (e.g., 3x1, 2x2, 3x2, 1x1, 4x1).
+pass_result	str	IN	Outcome of the pass play: C (Complete), I (Incomplete), S (Sack), IN (Interception), R (Scramble).
+pass_length	float64	5.0	Air yards traveled by the pass past the line of scrimmage (negative for passes behind the LOS).
+play_nullified_by_penalty	str	N	Y if the play outcome was wiped out by penalty, N otherwise.
+penalty_yards	float64	null	Total penalty yardage enforced on the play.
+pre_penalty_yards_gained	int64	0	Gross yards gained before penalty assessment.
+yards_gained	int64	0	Official net yards gained on the play.
+team_coverage_man_zone	str	ZONE_COVERAGE	Primary defensive coverage scheme classification (MAN_COVERAGE, ZONE_COVERAGE).
+team_coverage_type	str	COVER_6_ZONE	Specific defensive coverage shell (e.g., COVER_1, COVER_2, COVER_3, COVER_4, COVER_6_ZONE, COVER_0, PREVENT).
+in_motion_at_ball_snap	bool	False	True if the player was in active pre-snap motion when the ball was snapped.
+D. Receiver & Ball Carrier Metrics
+Column Name	Data Type	Example	Description
+target	bool	False	True if the player was the intended target of the pass.
+rec_yards	float64	14.0	Receiving yards gained by the player on the play.
+rush_yards	float64	null	Rushing yards gained by the player on the play.
+yards_after_catch	float64	6.2	Yards gained by the receiver after securing the catch (YAC).
+fumble	float64	0.0	1.0 if the player fumbled the ball on the play, 0.0 otherwise.
+fumble_lost	float64	0.0	1.0 if the player's fumble was recovered by the opponent.
+route_ran	str	SLANT	Specific route run by the receiver (e.g., GO, OUT, SLANT, CROSS, POST, CORNER, HITCH, SCREEN, FLAT, WHEEL).
+separation_at_pass_forward	float64	2.84	Distance in yards to the nearest defender at the moment the ball is thrown forward.
+cushion	float64	6.15	Pre-snap distance in yards between the receiver and their primary coverage defender.
+expected_yards_after_catch	float64	4.1	Next Gen Stats expected yards after catch model prediction at catch moment.
+E. Offensive Line & Pass Protection Metrics
+Column Name	Data Type	Example	Description
+dropback_duration	float64	1.835	Time from snap to pass release, sack, or pressure in seconds.
+extended_sack_allowed	float64	0.0	Sacks allowed on extended dropbacks exceeding 4.0 seconds.
+pass_rushers_encountered	float64	1.0	Number of distinct pass rushers engaged by the offensive lineman on the play.
+peak_pressure_probability_allowed	float64	0.1975	Peak estimated pressure probability allowed by the offensive lineman.
+pressure_allowed	bool	False	True if the offensive lineman allowed a pressure (QB hurry, hit, or sack).
+sack_allowed	float64	0.0	Sacks charged to the offensive lineman (1.0 for solo, 0.5 for shared).
+time_to_pressure_allowed	float64	2.45	Time in seconds from snap until the offensive lineman allowed pressure.
+F. Defensive Pass Rush & Tackle Metrics
+Column Name	Data Type	Example	Description
+blitzing	bool	False	True if the defender was rushing the passer on a blitz.
+player_get_off	float64	0.742	Time in seconds from ball snap until defensive rusher moves forward across the line of scrimmage.
+sack	float64	1.0	1.0 if the defender recorded a sack on the play (0.5 for shared sack).
+tackle	float64	1.0	1.0 if the defender made a solo tackle on the ball carrier.
+assist	float64	0.0	1.0 if the defender assisted on a tackle.
+caused_forced_fumble	float64	0.0	1.0 if the defender forced a fumble on the play.
+recovered_fumble	float64	0.0	1.0 if the player recovered a loose fumble.
+tackle_for_loss	float64	1.0	1.0 if the tackle stopped the play behind the line of scrimmage for negative yards.
+time_to_pressure	float64	2.18	Time elapsed from snap until this defender generated pressure on the quarterback.
+time_to_qb_hurry	float64	2.80	Time elapsed from snap until this defender forced a QB hurry.
+coverage_assignment	str	MAN	Pre-snap coverage assignment (e.g., MAN, DEEP_THIRD, FLAT, HOOK_CURL).
+coverage_assignment_at_snap	str	MAN	Coverage responsibility updated at ball snap following pre-snap motion.
+quick_pressure	float64	null	1.0 if a pass rusher pressures within 2.50 seconds of the snap.
+unblocked_pressure	float64	null	1.0 if a pass rusher pressured the QB through this lineman's gap without being blocked.
+File 6: games.csv
+Contains schedule, season, and team matchup metadata for all 1,002 NFL regular-season and playoff games across 2023, 2024, and 2025.
+
+Column Name	Data Type	Example	Description
+game_id	int64	2023090700	Unique 10-digit NFL game identifier (YYYYMMDD##). Primary key.
+game_key	int64	59173	Historical NFL game key identifier.
+season	int64	2023	NFL season year (2023, 2024, 2025).
+season_type	str	REG	Type of season: REG (Regular Season) or POST (Playoffs).
+week	int64	1	Week number within the season (Weeks 1–18).
+home_team_abbr	str	KC	3-letter abbreviation of the home team.
+visitor_team_abbr	str	DET	3-letter abbreviation of the visiting team.
+Files 7, 8, 9: game_tracking_2023.csv, game_tracking_2024.csv, game_tracking_2025.csv
+Contain 10 Hz high-frequency in-game optical tracking frames for all rookie cohort prospects across each respective NFL season.
+
+Column Name	Data Type	Example	Description
+game_id	int64	2024080952	Game identifier matching games.csv.
+play_id	int64	3379	Play identifier matching player_play.csv.
+nfl_id	int64	57367	Player identifier matching players.csv (tracks all 510 rookie cohort prospects).
+time	str	2024-08-10T01:30:31.800	ISO 8601 timestamp for the in-game optical tracking frame (sampled every 0.10s).
+x	float64	87.09	Player horizontal position along field length in yards (0-120).
+y	float64	22.52	Player vertical position across field width in yards (0-53.33).
+s	float64	0.28	Instantaneous player speed in yards per second (yd/s).
+a	float64	0.11	Instantaneous player acceleration in yards per second squared (yds / sec^2).
+dis	float64	0.03	Distance traveled from the previous tracking frame in yards.
+o	float64	98.51	Player body orientation angle in degrees (0-360).
+dir	float64	126.08	Player motion direction angle in degrees (0-360).
+event	str / null	pass_forward	Game play milestone event tag (e.g., ball_snap, pass_forward, pass_arrived, tackle, touchdown, first_contact, out_of_bounds, or null for regular frames).
+Figure 1: Field coordinates, direction, and orientation
+
+Files
+9 files
+
+Size
+2.31 GB
+
+Type
+csv
+
+License
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+nfl-big-data-bowl-2027(9 files)
+combine_results.csv
+
+41.02 kB
+combine_tracking.csv
+
+83.79 MB
+game_tracking_2023.csv
+
+335.46 MB
+game_tracking_2024.csv
+
+717.95 MB
+game_tracking_2025.csv
+
+1.02 GB
+games.csv
+
+43.17 kB
+player_career_successes.csv
+
+13.8 kB
+player_play.csv
+
+146.88 MB
+players.csv
+
+47.3 kB
+Data Explorer
+2.31 GB
+
+nfl-big-data-bowl-2027
+
+combine_results.csv
+
+combine_tracking.csv
+
+game_tracking_2023.csv
+
+game_tracking_2024.csv
+
+game_tracking_2025.csv
+
+games.csv
+
+player_career_successes.csv
+
+player_play.csv
+
+players.csv
+
+Summary
+9 files
+
+158 columns
+
+
+Download All
+Metadata
+License
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+Rules accepted. Good luck!
+
+
+Skip to
+content
+
+
+Create
+Home
+
+Competitions
+
+Benchmarks
+
+Game Arena
+
+Data Hub
+
+Datasets
+
+Models
+
+Code
+
+More
+
+Discussions
+
+Learn
+
+Kaggle Rankings
+
+Progression
+
+Documentation
+
+Host a Competition
+
+Research Grants
+
+Educator Resources
+
+Support/Contact
+
+Community Guidelines
+
+Team
+
+Blog
+
+Terms
+
+Privacy
+
+Your Work
+
+Viewed
+
+
+NFL Big Data Bowl 2027
+
+
+RSNA Knee Abnormality Detection
+
+
+Knee MRI Patient Explainer Demo
+
+
+rsna knee restructured version 3
+
+
+Google - The Gemma 4 Developer Agent Competition
+
+Edited
+
+
+Training Book
+
+
+JEV Encoder Demo
+
+
+Precision Runs ACT Training
+
+
+Vessel Ops Extra Credit - Unsloth Fine-tuning
+
+
+Submission Notebook
+
+Bookmarks
+
+
+WHO International Medical Guide for Ships 3rd ed
+
+
+View Active Events
+
+Search
+
+The National Football League · Featured Hackathon · 3 months to go
+
+View Writeups
+NFL Big Data Bowl 2027
+Uncover non-obvious linkages between Combine sensor tracking and regular-season NFL game performance
+
+
+You haven't created a writeup yet.
+
+Your submission is due by Jan 6, 2027 at 3:59 PM PST.
+You have accepted the rules for this competition. Good luck!
+Competition Rules
+ENTRY IN THIS COMPETITION CONSTITUTES YOUR ACCEPTANCE OF THESE OFFICIAL COMPETITION RULES.
+See Section 3.18 for defined terms
+
+The Competition named below is a skills-based competition to promote and further the field of data science. You must register via the Competition Website to enter. To enter the Competition, you must agree to these Official Competition Rules, which incorporate by reference the provisions and content of the Competition Website and any Specific Competition Rules herein (collectively, the "Rules"). Please read these Rules carefully before entry to ensure you understand and agree. You further agree that Submission in the Competition constitutes agreement to these Rules. You may not submit to the Competition and are not eligible to receive the prizes associated with this Competition unless you agree to these Rules. These Rules form a binding legal agreement between you and the Competition Sponsor with respect to the Competition. Your competition Submissions must conform to the requirements stated on the Competition Website. Your Submissions will be scored based on the evaluation metric described on the Competition Website. Subject to compliance with the Competition Rules, Prizes, if any, will be awarded to Participants with the best scores, based on the merits of the data science models submitted. See below for the complete Competition Rules. For Competitions designated as hackathons by the Competition Sponsor (“Hackathons”), your Submissions will be judged by the Competition Sponsor based on the evaluation rubric set forth on the Competition Website (“Evaluation Rubric”). The Prizes, if any, will be awarded to Participants with the highest ranking(s) as determined by the Competition Sponsor based on such rubric.
+
+You cannot sign up to Kaggle from multiple accounts and therefore you cannot enter or submit from multiple accounts.
+
+1. COMPETITION-SPECIFIC TERMS
+1. COMPETITION TITLE
+NFL Big Data Bowl 2027
+
+2. COMPETITION SPONSOR
+National Football League
+
+3. COMPETITION SPONSOR ADDRESS
+345 Park Avenue, New York, NY 10154
+
+4. COMPETITION WEBSITE
+https://www.kaggle.com/competitions/nfl-big-data-bowl-2027
+
+5. TOTAL PRIZES AVAILABLE: $100,000
+Open Track ($45,000)
+
+Finalists (3): $10,000 each
+Runners-Up (3): $5,000 each
+University Track ($45,000)
+
+Finalists (3): $10,000 each
+Runners-Up (3): $5,000 each
+Grand Prize ($10,000)
+
+Combine Presentation Winner (1): $10,000
+Each of the finalists from the Open and University tracks will receive an invitation to present at the 2027 NFL Scouting Combine, where one team will win an additional $10,000 Grand Prize. Submissions should not be made directly to the Grand Prize track, as it represents an additional award available only to invited Finalists.
+
+6. WINNER LICENSE TYPE
+Open Source
+
+7. DATA ACCESS AND USE
+CC BY-NC 4.0
+
+2. COMPETITION-SPECIFIC RULES
+In addition to the provisions of the General Competition Rules below, you understand and agree to these Competition-Specific Rules required by the Competition Sponsor:
+
+1. TEAM LIMITS
+a. The maximum Team size is five (5). b. Team mergers are allowed and can be performed by the Team leader. In order to merge, the combined Team must have a total Submission count less than or equal to the maximum allowed as of the Team Merger Deadline. The maximum allowed is the number of Submissions per day multiplied by the number of days the competition has been running. For Hackathons, each team is allowed one (1) Submission; any Submissions submitted by Participants before merging into a Team will be unsubmitted.
+
+2. SUBMISSION LIMITS
+a. You may submit a maximum of five (5) Submissions per day. b. You may select up to two (2) Final Submissions for judging. c. For Hackathons, each Team may submit one (1) Submission only.
+
+3. COMPETITION TIMELINE
+a. Competition Timeline dates (including Entry Deadline, Final Submission Deadline, Start Date, and Team Merger Deadline, as applicable) are reflected on the competition’s Overview > Timeline page.
+
+4. COMPETITION DATA
+a. Data Access and Use.
+
+You may access and use the Competition Data for non-commercial purposes only, including for participating in the Competition and on Kaggle.com forums, and for academic research and education. The Competition Sponsor reserves the right to disqualify any Participant who uses the Competition Data other than as permitted by the Competition Website and these Rules.
+b. Data Security.
+
+You agree to use reasonable and suitable measures to prevent persons who have not formally agreed to these Rules from gaining access to the Competition Data. You agree not to transmit, duplicate, publish, redistribute or otherwise provide or make available the Competition Data to any party not participating in the Competition. You agree to notify Kaggle immediately upon learning of any possible unauthorized transmission of or unauthorized access to the Competition Data and agree to work with Kaggle to rectify any unauthorized transmission or access.
+5. WINNER LICENSE
+a. Under Section 2.8 (Winners Obligations) of the General Rules below, you hereby grant and will grant the Competition Sponsor the following license(s) with respect to your Submission if you are a Competition winner:
+
+Open Source: You hereby license and will license your winning Submission and the source code used to generate the Submission under an Open Source Initiative-approved license (see www.opensource.org) that in no event limits commercial use of such code or model containing or depending on such code.
+
+For generally commercially available software that you used to generate your Submission that is not owned by you, but that can be procured by the Competition Sponsor without undue expense, you do not need to grant the license in the preceding Section for that software.
+
+In the event that input data or pretrained models with an incompatible license are used to generate your winning solution, you do not need to grant an open source license in the preceding Section for that data and/or model(s).
+
+b. You may be required by the Sponsor to provide a detailed description of how the winning Submission was generated, to the Competition Sponsor’s specifications, as outlined in Section 2.8, Winner’s Obligations. This may include a detailed description of methodology, where one must be able to reproduce the approach by reading the description, and includes a detailed explanation of the architecture, preprocessing, loss function, training details, hyper-parameters, etc. The description should also include a link to a code repository with complete and detailed instructions so that the results obtained can be reproduced. After your solution has been validated, you may be asked to discuss your results via a recorded call or panel call with the competition sponsors, which call may take the form of a panel with the attendance of other winners.
+
+6. EXTERNAL DATA AND TOOLS
+a. You may use data other than the Competition Data (“External Data”) to develop and test your Submissions. However, you will ensure the External Data is either publicly available and equally accessible to use by all Participants of the Competition for purposes of the competition at no cost to the other Participants, or satisfies the Reasonableness criteria as outlined in Section 2.6.b below. The ability to use External Data under this Section does not limit your other obligations under these Competition Rules, including but not limited to Section 2.8 (Winners Obligations).
+
+b. The use of external data and models is acceptable unless specifically prohibited by the Host. Because of the potential costs or restrictions (e.g., “geo restrictions”) associated with obtaining rights to use external data or certain software and associated tools, their use must be “reasonably accessible to all” and of “minimal cost”. Also, regardless of the cost challenges as they might affect all Participants during the course of the competition, the costs of potentially procuring a license for software used to generate a Submission, must also be considered. The Host will employ an assessment of whether or not the following criteria can exclude the use of the particular LLM, data set(s), or tool(s):
+
+Are Participants being excluded from a competition because of the "excessive" costs for access to certain LLMs, external data, or tools that might be used by other Participants. The Host will assess the excessive cost concern by applying a “Reasonableness” standard (the “Reasonableness Standard”). The Reasonableness Standard will be determined and applied by the Host in light of things like cost thresholds and accessibility.
+
+By way of example only, a small subscription charge to use additional elements of a large language model such as Gemini Advanced are acceptable if meeting the Reasonableness Standard of Sec. 8.2. Purchasing a license to use a proprietary dataset that exceeds the cost of a prize in the competition would not be considered reasonable.
+
+c. Automated Machine Learning Tools (“AMLT”)
+
+Individual Participants and Teams may use automated machine learning tool(s) (“AMLT”) (e.g., Google toML, H2O Driverless AI, etc.) to create a Submission, provided that the Participant or Team ensures that they have an appropriate license to the AMLT such that they are able to comply with the Competition Rules.
+7. ELIGIBILITY
+a. Unless otherwise stated in the Competition-Specific Rules above or prohibited by internal policies of the Competition Entities, employees, interns, contractors, officers and directors of Competition Entities may enter and participate in the Competition, but are not eligible to win any Prizes. "Competition Entities" means the Competition Sponsor, Kaggle Inc., and their respective parent companies, subsidiaries and affiliates. If you are such a Participant from a Competition Entity, you are subject to all applicable internal policies of your employer with respect to your participation.
+
+b. The Competition Sponsor allows individuals under the age of 18 with appropriate parental/guardian consents to participate in the competition, but are ineligible to be recipients of a prize.
+
+8. WINNER’S OBLIGATIONS
+a. As a condition to being awarded a Prize, a Prize winner must fulfill the following obligations:
+
+Deliver to the Competition Sponsor the final model's software code as used to generate the winning Submission and associated documentation. The delivered software code should follow these documentation guidelines, must be capable of generating the winning Submission, and contain a description of resources required to build and/or run the executable code successfully. For avoidance of doubt, delivered software code should include training code, inference code, and a description of the required computational environment. For Hackathons, the Submission deliverables will be as described on the Competition Website, which may be information or materials that are not software code.
+a. To the extent that the final model’s software code includes generally commercially available software that is not owned by you, but that can be procured by the Competition Sponsor without undue expense, then instead of delivering the code for that software to the Competition Sponsor, you must identify that software, method for procuring it, and any parameters or other information necessary to replicate the winning Submission; Individual Participants and Teams who create a Submission using an AMLT may win a Prize. However, for clarity, the potential winner’s Submission must still meet the requirements of these Rules, including but not limited to Section 2.5 (Winners License), Section 2.8 (Winners Obligations), and Section 3.14 (Warranty, Indemnity, and Release).”
+
+b. Individual Participants and Teams who create a Submission using an AMLT may win a Prize. However, for clarity, the potential winner’s Submission must still meet the requirements of these Rules,
+
+Grant to the Competition Sponsor the license to the winning Submission stated in the Competition Specific Rules above, and represent that you have the unrestricted right to grant that license;
+
+Sign and return all Prize acceptance documents as may be required by Competition Sponsor or Kaggle, including without limitation: (a) eligibility certifications; (b) licenses, releases and other agreements required under the Rules; and (c) U.S. tax forms (such as IRS Form W-9 if U.S. resident, IRS Form W-8BEN if foreign resident, or future equivalents).
+
+9. GOVERNING LAW
+a. Unless otherwise provided in the Competition Specific Rules above, all claims arising out of or relating to these Rules will be governed by New York law, excluding its conflict of laws rules, and will be litigated exclusively in the Federal or State courts of Santa Clara County, California, USA. The parties consent to personal jurisdiction in those courts. If any provision of these Rules is held to be invalid or unenforceable, all remaining provisions of the Rules will remain in full force and effect.
+
+3. GENERAL COMPETITION RULES - BINDING AGREEMENT
+1. ELIGIBILITY
+a. To be eligible to enter the Competition, you must be:
+
+a registered account holder at Kaggle.com;
+the older of 18 years old or the age of majority in your jurisdiction of residence (unless otherwise agreed to by Competition Sponsor and appropriate parental/guardian consents have been obtained by Competition Sponsor);
+not a resident of Crimea, so-called Donetsk People's Republic (DNR) or Luhansk People's Republic (LNR), Cuba, Iran, or North Korea; and
+not a person or representative of an entity under U.S. export controls or sanctions (see: https://www.treasury.gov/resourcecenter/sanctions/Programs/Pages/Programs.aspx).
+b. Competitions are open to residents of the United States and worldwide, except that if you are a resident of Crimea, so-called Donetsk People's Republic (DNR) or Luhansk People's Republic (LNR), Cuba, Iran, North Korea, or are subject to U.S. export controls or sanctions, you may not enter the Competition. Other local rules and regulations may apply to you, so please check your local laws to ensure that you are eligible to participate in skills-based competitions. The Competition Host reserves the right to forego or award alternative Prizes where needed to comply with local laws. If a winner is located in a country where prizes cannot be awarded, then they are not eligible to receive a prize.
+
+c. If you are entering as a representative of a company, educational institution or other legal entity, or on behalf of your employer, these rules are binding on you, individually, and the entity you represent or where you are an employee. If you are acting within the scope of your employment, or as an agent of another party, you warrant that such party or your employer has full knowledge of your actions and has consented thereto, including your potential receipt of a Prize. You further warrant that your actions do not violate your employer's or entity's policies and procedures.
+
+d. The Competition Sponsor reserves the right to verify eligibility and to adjudicate on any dispute at any time. If you provide any false information relating to the Competition concerning your identity, residency, mailing address, telephone number, email address, ownership of right, or information required for entering the Competition, you may be immediately disqualified from the Competition.
+
+2. SPONSOR AND HOSTING PLATFORM
+a. The Competition is sponsored by Competition Sponsor named above. The Competition is hosted on behalf of Competition Sponsor by Kaggle Inc. ("Kaggle"). Kaggle is an independent contractor of Competition Sponsor, and is not a party to this or any agreement between you and Competition Sponsor. You understand that Kaggle has no responsibility with respect to selecting the potential Competition winner(s) or awarding any Prizes. Kaggle will perform certain administrative functions relating to hosting the Competition, and you agree to abide by the provisions relating to Kaggle under these Rules. As a Kaggle.com account holder and user of the Kaggle competition platform, remember you have accepted and are subject to the Kaggle Terms of Service at www.kaggle.com/terms in addition to these Rules.
+
+3. COMPETITION PERIOD
+a. For the purposes of Prizes, the Competition will run from the Start Date and time to the Final Submission Deadline (such duration the “Competition Period”). The Competition Timeline is subject to change, and Competition Sponsor may introduce additional hurdle deadlines during the Competition Period. Any updated or additional deadlines will be publicized on the Competition Website. It is your responsibility to check the Competition Website regularly to stay informed of any deadline changes. YOU ARE RESPONSIBLE FOR DETERMINING THE CORRESPONDING TIME ZONE IN YOUR LOCATION.
+
+4. COMPETITION ENTRY
+a. NO PURCHASE NECESSARY TO ENTER OR WIN. To enter the Competition, you must register on the Competition Website prior to the Entry Deadline, and follow the instructions for developing and entering your Submission through the Competition Website. Your Submissions must be made in the manner and format, and in compliance with all other requirements, stated on the Competition Website (the "Requirements"). Submissions must be received before any Submission deadlines stated on the Competition Website. Submissions not received by the stated deadlines will not be eligible to receive a Prize. b. Except as expressly allowed in Hackathons as set forth on the Competition Website, submissions may not use or incorporate information from hand labeling or human prediction of the validation dataset or test data records. c. If the Competition is a multi-stage competition with temporally separate training and/or test data, one or more valid Submissions may be required during each Competition stage in the manner described on the Competition Website in order for the Submissions to be Prize eligible. d. Submissions are void if they are in whole or part illegible, incomplete, damaged, altered, counterfeit, obtained through fraud, or late. Competition Sponsor reserves the right to disqualify any entrant who does not follow these Rules, including making a Submission that does not meet the Requirements.
+
+5. INDIVIDUALS AND TEAMS
+a. Individual Account. You may make Submissions only under one, unique Kaggle.com account. You will be disqualified if you make Submissions through more than one Kaggle account, or attempt to falsify an account to act as your proxy. You may submit up to the maximum number of Submissions per day as specified on the Competition Website. b. Teams. If permitted under the Competition Website guidelines, multiple individuals may collaborate as a Team; however, you may join or form only one Team. Each Team member must be a single individual with a separate Kaggle account. You must register individually for the Competition before joining a Team. You must confirm your Team membership to make it official by responding to the Team notification message sent to your Kaggle account. Team membership may not exceed the Maximum Team Size stated on the Competition Website. c. Team Merger. Teams (or individual Participants) may request to merge via the Competition Website. Team mergers may be allowed provided that: (i) the combined Team does not exceed the Maximum Team Size; (ii) the number of Submissions made by the merging Teams does not exceed the number of Submissions permissible for one Team at the date of the merger request; (iii) the merger is completed before the earlier of: any merger deadline or the Competition deadline; and (iv) the proposed combined Team otherwise meets all the requirements of these Rules. d. Private Sharing. No private sharing outside of Teams. Privately sharing code or data outside of Teams is not permitted. It's okay to share code if made available to all Participants on the forums.
+
+6. SUBMISSION CODE REQUIREMENTS
+a. Private Code Sharing. Unless otherwise specifically permitted under the Competition Website or Competition Specific Rules above, during the Competition Period, you are not allowed to privately share source or executable code developed in connection with or based upon the Competition Data or other source or executable code relevant to the Competition (“Competition Code”). This prohibition includes sharing Competition Code between separate Teams, unless a Team merger occurs. Any such sharing of Competition Code is a breach of these Competition Rules and may result in disqualification. b. Public Code Sharing. You are permitted to publicly share Competition Code, provided that such public sharing does not violate the intellectual property rights of any third party. If you do choose to share Competition Code or other such code, you are required to share it on Kaggle.com on the discussion forum or notebooks associated specifically with the Competition for the benefit of all competitors. By so sharing, you are deemed to have licensed the shared code under an Open Source Initiative-approved license (see www.opensource.org) that in no event limits commercial use of such Competition Code or model containing or depending on such Competition Code. c. Use of Open Source. Unless otherwise stated in the Specific Competition Rules above, if open source code is used in the model to generate the Submission, then you must only use open source code licensed under an Open Source Initiative-approved license (see www.opensource.org) that in no event limits commercial use of such code or model containing or depending on such code.
+
+7. DETERMINING WINNERS
+a. Each Submission will be scored and/or ranked by the evaluation metric, or Evaluation Rubric (in the case of Hackathon Competitions),stated on the Competition Website. During the Competition Period, the current ranking will be visible on the Competition Website's Public Leaderboard. The potential winner(s) are determined solely by the leaderboard ranking on the Private Leaderboard, subject to compliance with these Rules. The Public Leaderboard will be based on the public test set and the Private Leaderboard will be based on the private test set. There will be no leaderboards for Hackathon Competitions. b. In the event of a tie, the Submission that was entered first to the Competition will be the winner. In the event a potential winner is disqualified for any reason, the Submission that received the next highest score rank will be chosen as the potential winner. For Hackathon Competitions, each of the top Submissions will get a unique ranking and there will be no tiebreakers.
+
+8. NOTIFICATION OF WINNERS & DISQUALIFICATION
+a. The potential winner(s) will be notified by email. b. If a potential winner (i) does not respond to the notification attempt within one (1) week from the first notification attempt or (ii) notifies Kaggle within one week after the Final Submission Deadline that the potential winner does not want to be nominated as a winner or does not want to receive a Prize, then, in each case (i) and (ii) such potential winner will not receive any Prize, and an alternate potential winner will be selected from among all eligible entries received based on the Competition’s judging criteria. c. In case (i) and (ii) above Kaggle may disqualify the Participant. However, in case (ii) above, if requested by Kaggle, such potential winner may provide code and documentation to verify the Participant’s compliance with these Rules. If the potential winner provides code and documentation to the satisfaction of Kaggle, the Participant will not be disqualified pursuant to this paragraph. d. Competition Sponsor reserves the right to disqualify any Participant from the Competition if the Competition Sponsor reasonably believes that the Participant has attempted to undermine the legitimate operation of the Competition by cheating, deception, or other unfair playing practices or abuses, threatens or harasses any other Participants, Competition Sponsor or Kaggle. e. A disqualified Participant may be removed from the Competition leaderboard, at Kaggle's sole discretion. If a Participant is removed from the Competition Leaderboard, additional winning features associated with the Kaggle competition platform, for example Kaggle points or medals, may also not be awarded. f. The final leaderboard list will be publicly displayed at Kaggle.com. Determinations of Competition Sponsor are final and binding.
+
+9. PRIZES
+a. Prize(s) are as described on the Competition Website and are only available for winning during the time period described on the Competition Website. The odds of winning any Prize depends on the number of eligible Submissions received during the Competition Period and the skill of the Participants. b. All Prizes are subject to Competition Sponsor's review and verification of the Participant’s eligibility and compliance with these Rules, and the compliance of the winning Submissions with the Submissions Requirements. In the event that the Submission demonstrates non-compliance with these Competition Rules, Competition Sponsor may at its discretion take either of the following actions: (i) disqualify the Submission(s); or (ii) require the potential winner to remediate within one week after notice all issues identified in the Submission(s) (including, without limitation, the resolution of license conflicts, the fulfillment of all obligations required by software licenses, and the removal of any software that violates the software restrictions). c. A potential winner may decline to be nominated as a Competition winner in accordance with Section 3.8. d. Potential winners must return all required Prize acceptance documents within two (2) weeks following notification of such required documents, or such potential winner will be deemed to have forfeited the prize and another potential winner will be selected. Prize(s) will be awarded within approximately thirty (30) days after receipt by Competition Sponsor or Kaggle of the required Prize acceptance documents. Transfer or assignment of a Prize is not allowed. e. You are not eligible to receive any Prize if you do not meet the Eligibility requirements in Section 2.7 and Section 3.1 above. f. If a Team wins a monetary Prize, the Prize money will be allocated in even shares between the eligible Team members, unless the Team unanimously opts for a different Prize split and notifies Kaggle before Prizes are issued.
+
+10. TAXES
+a. ALL TAXES IMPOSED ON PRIZES ARE THE SOLE RESPONSIBILITY OF THE WINNERS. Payments to potential winners are subject to the express requirement that they submit all documentation requested by Competition Sponsor or Kaggle for compliance with applicable state, federal, local and foreign (including provincial) tax reporting and withholding requirements. Prizes will be net of any taxes that Competition Sponsor is required by law to withhold. If a potential winner fails to provide any required documentation or comply with applicable laws, the Prize may be forfeited and Competition Sponsor may select an alternative potential winner. Any winners who are U.S. residents will receive an IRS Form-1099 in the amount of their Prize.
+
+11. GENERAL CONDITIONS
+a. All federal, state, provincial and local laws and regulations apply.
+
+12. PUBLICITY
+a. You agree that Competition Sponsor, Kaggle and its affiliates may use your name and likeness for advertising and promotional purposes without additional compensation, unless prohibited by law.
+
+13. PRIVACY
+a. You acknowledge and agree that Competition Sponsor and Kaggle may collect, store, share and otherwise use personally identifiable information provided by you during the Kaggle account registration process and the Competition, including but not limited to, name, mailing address, phone number, and email address (“Personal Information”). Kaggle acts as an independent controller with regard to its collection, storage, sharing, and other use of this Personal Information, and will use this Personal Information in accordance with its Privacy Policy <www.kaggle.com/privacy>, including for administering the Competition. As a Kaggle.com account holder, you have the right to request access to, review, rectification, portability or deletion of any personal data held by Kaggle about you by logging into your account and/or contacting Kaggle Support at <www.kaggle.com/contact>. b. As part of Competition Sponsor performing this contract between you and the Competition Sponsor, Kaggle will transfer your Personal Information to Competition Sponsor, which acts as an independent controller with regard to this Personal Information. As a controller of such Personal Information, Competition Sponsor agrees to comply with all U.S. and foreign data protection obligations with regard to your Personal Information. Kaggle will transfer your Personal Information to Competition Sponsor in the country specified in the Competition Sponsor Address listed above, which may be a country outside the country of your residence. Such country may not have privacy laws and regulations similar to those of the country of your residence.
+
+14. WARRANTY, INDEMNITY AND RELEASE
+a. You warrant that your Submission is your own original work and, as such, you are the sole and exclusive owner and rights holder of the Submission, and you have the right to make the Submission and grant all required licenses. You agree not to make any Submission that: (i) infringes any third party proprietary rights, intellectual property rights, industrial property rights, personal or moral rights or any other rights, including without limitation, copyright, trademark, patent, trade secret, privacy, publicity or confidentiality obligations, or defames any person; or (ii) otherwise violates any applicable U.S. or foreign state or federal law. b. To the maximum extent permitted by law, you indemnify and agree to keep indemnified Competition Entities at all times from and against any liability, claims, demands, losses, damages, costs and expenses resulting from any of your acts, defaults or omissions and/or a breach of any warranty set forth herein. To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless the Competition Entities from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses (including reasonable attorneys fees) arising out of or accruing from: (a) your Submission or other material uploaded or otherwise provided by you that infringes any third party proprietary rights, intellectual property rights, industrial property rights, personal or moral rights or any other rights, including without limitation, copyright, trademark, patent, trade secret, privacy, publicity or confidentiality obligations, or defames any person; (b) any misrepresentation made by you in connection with the Competition; (c) any non-compliance by you with these Rules or any applicable U.S. or foreign state or federal law; (d) claims brought by persons or entities other than the parties to these Rules arising from or related to your involvement with the Competition; and (e) your acceptance, possession, misuse or use of any Prize, or your participation in the Competition and any Competition-related activity. c. You hereby release Competition Entities from any liability associated with: (a) any malfunction or other problem with the Competition Website; (b) any error in the collection, processing, or retention of any Submission; or (c) any typographical or other error in the printing, offering or announcement of any Prize or winners.
+
+15. INTERNET
+a. Competition Entities are not responsible for any malfunction of the Competition Website or any late, lost, damaged, misdirected, incomplete, illegible, undeliverable, or destroyed Submissions or entry materials due to system errors, failed, incomplete or garbled computer or other telecommunication transmission malfunctions, hardware or software failures of any kind, lost or unavailable network connections, typographical or system/human errors and failures, technical malfunction(s) of any telephone network or lines, cable connections, satellite transmissions, servers or providers, or computer equipment, traffic congestion on the Internet or at the Competition Website, or any combination thereof, which may limit a Participant’s ability to participate.
+
+16. RIGHT TO CANCEL, MODIFY OR DISQUALIFY
+a. If for any reason the Competition is not capable of running as planned, including infection by computer virus, bugs, tampering, unauthorized intervention, fraud, technical failures, or any other causes which corrupt or affect the administration, security, fairness, integrity, or proper conduct of the Competition, Competition Sponsor reserves the right to cancel, terminate, modify or suspend the Competition. Competition Sponsor further reserves the right to disqualify any Participant who tampers with the submission process or any other part of the Competition or Competition Website. Any attempt by a Participant to deliberately damage any website, including the Competition Website, or undermine the legitimate operation of the Competition is a violation of criminal and civil laws. Should such an attempt be made, Competition Sponsor and Kaggle each reserves the right to seek damages from any such Participant to the fullest extent of the applicable law.
+
+17. NOT AN OFFER OR CONTRACT OF EMPLOYMENT
+a. Under no circumstances will the entry of a Submission, the awarding of a Prize, or anything in these Rules be construed as an offer or contract of employment with Competition Sponsor or any of the Competition Entities. You acknowledge that you have submitted your Submission voluntarily and not in confidence or in trust. You acknowledge that no confidential, fiduciary, agency, employment or other similar relationship is created between you and Competition Sponsor or any of the Competition Entities by your acceptance of these Rules or your entry of your Submission.
+
+18. DEFINITIONS
+a. "Competition Data" are the data or datasets available from the Competition Website for the purpose of use in the Competition, including any prototype or executable code provided on the Competition Website. The Competition Data will contain private and public test sets. Which data belongs to which set will not be made available to Participants. b. An “Entry” is when a Participant has joined, signed up, or accepted the rules of a competition. Entry is required to make a Submission to a competition. c. A “Final Submission” is the Submission selected by the user, or automatically selected by Kaggle in the event not selected by the user, that is/are used for final placement on the competition leaderboard. d. A “Participant” or “Participant User” is an individual who participates in a competition by entering the competition and making a Submission. e. The “Private Leaderboard” is a ranked display of Participants’ Submission scores against the private test set. The Private Leaderboard determines the final standing in the competition. f. The “Public Leaderboard” is a ranked display of Participants’ Submission scores against a representative sample of the test data. This leaderboard is visible throughout the competition. g. A “Sponsor” is responsible for hosting the competition, which includes but is not limited to providing the data for the competition, determining winners, and enforcing competition rules. h. A “Submission” is anything provided by the Participant to the Sponsor to be evaluated for competition purposes and determine leaderboard position. A Submission may be made as a model, notebook, prediction file, or other format as determined by the Sponsor. i. A “Team” is one or more Participants participating together in a Kaggle competition, by officially merging together as a Team within the competition platform.
+
+Rules
+Rules accepted. Good luck!

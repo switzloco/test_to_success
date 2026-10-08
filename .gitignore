@@ -1,0 +1,5 @@
+# Ignore cloned raw external repos and caches
+madden_data/
+__pycache__/
+*.py[cod]
+.venv/

@@ -1,0 +1,11 @@
+Text 1:
+Yo Matt, I'm doing the NFL Big Data Bowl hackathon and need a football brain. You down to be the ideas guy? Zero coding required on your end, I'm doing all the data crunching. 
+
+Text 2:
+The NFL gave us insane 10Hz sensor tracking data from actual games AND the Combine. We can see a player's exact speed, acceleration, and deceleration 10 times a second. 
+
+Text 3: 
+We have the tracking data for all these: 40-yard dash (w/ 10-yd split), 3-cone drill, short shuttle, vertical/broad jumps, bench press, and position-specific drills (like WR routes, DB backpedals, or O-line mirrors).
+
+Text 4:
+I need you to put on your Brad Holmes hat. Ex: Does Aidan Hutchinson's acceleration out of the 3-cone predict his Sunday pressure rate? Or does Amon-Ra's deceleration into cuts matter more than his slow 40-time? Give me theories, I'll test the data. Let me know!
