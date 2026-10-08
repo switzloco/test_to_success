@@ -3,22 +3,23 @@
 ## Overview
 The NFL Big Data Bowl 2027 challenges us to uncover hidden links between how a player moves in a Scouting Combine drill and how they actually perform on the field. Instead of traditional combine testing times, we have high-frequency **10 Hz optical sensor tracking data** (recording speed, acceleration, and orientation 10 times a second) for both Combine drills and actual regular-season NFL games from 2023–2025.
 
-## 🎯 The "Fun Bucket" (Alternative / Bonus Angles)
+## 🎯 The "Fun Bucket" & Working Hypotheses (Idea Log)
 *   **Combine vs. Madden (The Ultimate Showdown):** Which is a better predictor of on-field NFL success? Actual 10Hz Combine sensor data, or the subjective Madden ratings assigned by EA Sports? 
-*   **The "Sandbagger / Track Star" Database:** The Combine is essentially a track meet. Players who ran high school track have a massive mechanical advantage in drills like the 40-yard dash, while pure "football players" might look slow or sandbag the drills because they don't know the starting block techniques. We will build an external database flagging which of our rookies had High School Track experience to see if "Track Guys" overperform at the Combine but underperform on the field compared to their sensor data.
+*   **The "Sandbagger / Track Star" Database:** The Combine is essentially a track meet. Players who ran high school track have a massive mechanical advantage in drills like the 40-yard dash, while pure "football players" might look slow or sandbag the drills because they don't know the starting block techniques. We have compiled a database of confirmed track athletes to see if "Track Guys" overperform at the Combine but underperform in actual game speed compared to their sensor data.
+*   **The "Jet Lag & Travel Fatigue" Tax (Lucas Oil Stadium Effect):** Every year, all 300+ prospects converge on Indianapolis, IN (Eastern Time Zone). Prospects traveling from West Coast / Mountain / Pac-12 schools (e.g. Oregon, USC, Washington) cross up to 3 time zones and endure long cross-country flights, while Midwest / Big Ten players (Indiana, Purdue, Ohio State, Michigan) have negligible travel and zero circadian rhythm disruption. We will test whether distance traveled or time zones crossed creates a statistically significant underperformance "tax" on Combine burst (10-yard split, vertical jump) that artificially depresses their testing numbers compared to their in-game speed.
 
 ## Hackathon Phases
 
 **Phase 1: Brainstorming & Hypotheses (Weeks 1-2)**
 *   **The SMEs:** Leverage our "football guys" (Dad, Brother, Matt) to provide the "eye test" theories. We need to formulate specific hypotheses (e.g., "I don't care about a defensive end's 40-yard dash, I only care how fast he changes direction in the 3-cone.")
-*   **The Data Team:** Note these theories and prepare the environment (combining `players.csv`, `combine_tracking.csv`, and `game_tracking.csv`). Build out external datasets (e.g., Madden Ratings, High School Track Database).
+*   **The Data Team:** Note these theories and prepare the environment (combining `players.csv`, `combine_tracking.csv`, and `game_tracking.csv`). Build out external datasets (e.g., Madden Ratings, High School Track Database, Travel/Distance to Indy).
 
 **Phase 2: Data Exploration & Prototyping (Weeks 3-5)**
 *   Translate theories into queries. If the hypothesis is that "deceleration into breaks" is what makes a great slot receiver, extract deceleration metrics from the Combine positional drills tracking data and correlate it with the `separation_at_pass_forward` metric in the game data.
 
 **Phase 3: Modeling & Narrowing the Scope (Weeks 6-9)**
 *   The Kaggle prompt specifically recommends focusing on **one position group or one specific trait**. Pick the strongest correlation found (e.g., O-Line lateral acceleration vs. pass protection pressure allowed) and build out the statistical models to prove it.
-*   *Control Variables:* Use our external databases to control for variables like "Did they run track?" to isolate true football speed.
+*   *Control Variables:* Use our external databases to control for variables like "Did they run track?" or "Did travel fatigue penalize them?" to isolate true football movement.
 
 **Phase 4: Write-up & Submission (Weeks 10-12)**
 *   Draft the final Kaggle notebook. Requirements are strict: max 2,000 words, fewer than 10 charts/tables, and it must explicitly link Combine sensor data to NFL game performance.
