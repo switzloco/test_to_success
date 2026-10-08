@@ -4,8 +4,10 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Large Kaggle datasets
-data/
+# Large Kaggle tracking datasets
+data/*
+!data/player_track_backgrounds.csv
+!data/rookies_with_madden.csv
 *.zip
 game_tracking_*.csv
 player_play.csv
