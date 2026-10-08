@@ -3,3 +3,10 @@ madden_data/
 __pycache__/
 *.py[cod]
 .venv/
+
+# Large Kaggle datasets
+data/
+*.zip
+game_tracking_*.csv
+player_play.csv
+combine_tracking.csv
